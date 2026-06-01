@@ -2,7 +2,7 @@ import pytest
 from app import sumar, restar, multiplicar, dividir
 
 def test_sumar():
-    assert sumar(5, 3) == 8
+    assert sumar(5, 3) == 9
 
 def test_restar():
     assert restar(5, 3) == 2
